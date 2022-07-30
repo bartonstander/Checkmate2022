@@ -1,0 +1,20 @@
+I measured the 10 recommended linux compression utilities from this web site:
+https://www.maketecheasier.com/best-compression-tools-linux/
+
+The pixz linux compression utility does the second best compression rate, after 7zip.
+Actually, it did slightly better with WBWN.table.compressed.bin
+But it also boasts "makes randomly accessing the original data straightforward"!
+Hopefully that means I won't ever have to decompress the whole original file.
+The extension is .xz
+
+pixz derives from xz, but seems to run faster (parallel implementation)
+and have the random access property.
+More info and source code available here:
+https://github.com/vasi/pixz
+
+plzip has a competitive compression ratio.
+
+zstd(Zstandard) comes with multiple language bindings.
+
+Bart Stander
+Jume 3, 2022
